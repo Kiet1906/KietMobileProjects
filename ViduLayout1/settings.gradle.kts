@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "ViduLayout1"
 include(":app")
- 
