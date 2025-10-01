@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#F2C7BF"
+        android:gravity="center"
+        android:text="Chào Mừng"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCN1"
+            android:layout_width="100dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="CN1" />
+
+        <Button
+            android:id="@+id/btnCN2"
+            android:layout_width="100dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="CN2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCN3"
+            android:layout_width="100dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="CN3" />
+
+        <Button
+            android:id="@+id/btnCN4"
+            android:layout_width="100dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:text="CN4" />
+    </LinearLayout>
+</LinearLayout>
