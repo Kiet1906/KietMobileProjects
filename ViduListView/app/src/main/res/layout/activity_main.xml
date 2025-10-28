@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Danh sách các học phần năm 3"
+        android:textSize="36sp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/dshocphan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:smoothScrollbar="true" />
+</LinearLayout>
