@@ -1,24 +1,24 @@
 package gk1.nguyenanhkiet.thigk;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
+        Button btnChucNang2 = findViewById(R.id.btnChucNang2);
+        Button btnChucNang3 = findViewById(R.id.btnChucNang3);
+        Button btnChucNang4 = findViewById(R.id.btnChucNang4);
+        Button btnAboutMe = findViewById(R.id.btnAboutMe);
+
+        btnChucNang2.setOnClickListener(v -> startActivity(new Intent(this, BMIActivity.class)));
+        btnChucNang3.setOnClickListener(v -> startActivity(new Intent(this, MonAnActivity.class)));
+        btnChucNang4.setOnClickListener(v -> startActivity(new Intent(this, BaiThuocActivity.class)));
+        btnAboutMe.setOnClickListener(v -> startActivity(new Intent(this, AboutMeActivity.class)));
     }
 }
