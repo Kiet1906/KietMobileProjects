@@ -3,13 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center">
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFF3E0">
 
     <TextView
+        android:id="@+id/tvTenBai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chi tiết bài thuốc (trống)"
-        android:textSize="18sp"
-        android:textStyle="bold"/>
+        android:text="Tên bài thuốc"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#E65100"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvCongDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Công dụng..."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#FFE0B2"/>
 </LinearLayout>
