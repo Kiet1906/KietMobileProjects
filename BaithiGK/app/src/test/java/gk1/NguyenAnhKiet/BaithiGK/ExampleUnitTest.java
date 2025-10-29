@@ -1,4 +1,4 @@
-package gk1.NguyenAnhKiet.BaithiGK;
+package gk1.nguyenanhkiet.baithigk;
 
 import org.junit.Test;
 

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "gk1.NguyenAnhKiet.BaithiGK"
+    namespace = "gk1.nguyenanhkiet.baithigk"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "gk1.NguyenAnhKiet.myapplication"
+        applicationId = "gk1.nguyenanhkiet.baithigk"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
