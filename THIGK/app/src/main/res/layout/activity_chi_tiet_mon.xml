@@ -3,13 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:gravity="center">
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#E8F5E9">
 
     <TextView
+        android:id="@+id/tvTenMon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chi tiết món ăn (trống)"
-        android:textSize="18sp"
-        android:textStyle="bold"/>
+        android:text="Tên món ăn"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả..."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#C8E6C9"/>
 </LinearLayout>
