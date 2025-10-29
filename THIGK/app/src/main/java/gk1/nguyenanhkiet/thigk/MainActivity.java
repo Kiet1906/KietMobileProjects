@@ -11,6 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         Button btnChucNang2 = findViewById(R.id.btnChucNang2);
         Button btnChucNang3 = findViewById(R.id.btnChucNang3);
         Button btnChucNang4 = findViewById(R.id.btnChucNang4);

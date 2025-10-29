@@ -3,81 +3,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    android:padding="24dp">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="#212121"
-        android:elevation="4dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="GK 1"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_gravity="start"
-            android:layout_marginStart="16dp"/>
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/logo_ntu"
-            android:layout_gravity="end"
-            android:layout_marginEnd="16dp"
-            android:elevation="8dp"/>
-    </androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_ntu"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ỨNG DỤNG THI GIỮA KỲ"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#1976D2"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="32dp"/>
+        android:layout_marginBottom="40dp"/>
 
     <Button
         android:id="@+id/btnChucNang2"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="60dp"
         android:text="BMI"
-        android:textSize="16sp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:backgroundTint="#4CAF50"
-        android:layout_marginBottom="12dp"
-        android:elevation="4dp"/>
+        android:layout_marginBottom="16dp"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"/>
 
     <Button
         android:id="@+id/btnChucNang3"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:text="Món ăn"
-        android:textSize="16sp"
+        android:layout_height="60dp"
+        android:text="MÓN ĂN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:backgroundTint="#2196F3"
-        android:layout_marginBottom="12dp"
-        android:elevation="4dp"/>
+        android:layout_marginBottom="16dp"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"/>
 
     <Button
         android:id="@+id/btnChucNang4"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:text="Bài thuốc"
-        android:textSize="16sp"
+        android:layout_height="60dp"
+        android:text="BÀI THUỐC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:backgroundTint="#FF9800"
-        android:layout_marginBottom="12dp"
-        android:elevation="4dp"/>
+        android:layout_marginBottom="16dp"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"/>
 
     <Button
         android:id="@+id/btnAboutMe"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:text="About Me"
-        android:textSize="16sp"
+        android:layout_height="60dp"
+        android:text="ABOUT ME"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:backgroundTint="#9C27B0"
-        android:elevation="4dp"/>
+        android:elevation="6dp"
+        android:stateListAnimator="@null"/>
 </LinearLayout>
