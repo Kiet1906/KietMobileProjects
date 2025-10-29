@@ -23,11 +23,12 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="32dp"/>
 
+    <!-- MỚI - GIỐNG HÌNH -->
     <Button
         android:id="@+id/btnChucNang2"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="Chức năng 2"
+        android:text="BMI"
         android:textSize="16sp"
         android:backgroundTint="#4CAF50"
         android:layout_marginBottom="12dp"
@@ -37,7 +38,7 @@
         android:id="@+id/btnChucNang3"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="Chức năng 3"
+        android:text="Món ăn"
         android:textSize="16sp"
         android:backgroundTint="#2196F3"
         android:layout_marginBottom="12dp"
@@ -47,7 +48,7 @@
         android:id="@+id/btnChucNang4"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="Chức năng 4"
+        android:text="Bài thuốc"
         android:textSize="16sp"
         android:backgroundTint="#FF9800"
         android:layout_marginBottom="12dp"
