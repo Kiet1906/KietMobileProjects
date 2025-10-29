@@ -6,12 +6,31 @@
     android:padding="24dp"
     android:background="#FFFFFF">
 
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/logo_ntu"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"/>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#212121"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GK 1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_ntu"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:elevation="8dp"/>
+    </androidx.appcompat.widget.Toolbar>
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +42,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="32dp"/>
 
-    <!-- MỚI - GIỐNG HÌNH -->
     <Button
         android:id="@+id/btnChucNang2"
         android:layout_width="match_parent"
