@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "972154296044",
+    "project_id": "android-7a513",
+    "storage_bucket": "android-7a513.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972154296044:android:d529fd95ad6149df4377c9",
+        "android_client_info": {
+          "package_name": "com.akiet.ghichucanhan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBj_ECCPg8aVTeaOTqOtN4kHh0kHcJM4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
