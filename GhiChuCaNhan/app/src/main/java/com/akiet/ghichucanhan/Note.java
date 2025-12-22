@@ -5,6 +5,9 @@ public class Note {
     private String title;
     private String content;
     private long timestamp;
+    private boolean pinned = false;   // ghi chú ghim
+    private String category = "Khác"; // danh mục
+
     private String color = "#FFFFFF"; // màu nền mặc định trắng
 
     // Constructor rỗng bắt buộc cho Firestore
@@ -16,6 +19,7 @@ public class Note {
         this.timestamp = timestamp;
         this.color = color;
     }
+
 
     // Getter & Setter
     public String getId() { return id; }

@@ -6,6 +6,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
+import android.view.View;
 
 public class LoginActivity extends AppCompatActivity {
     TextInputEditText edtEmail, edtPassword;
@@ -20,6 +21,7 @@ public class LoginActivity extends AppCompatActivity {
         edtPassword = findViewById(R.id.edtPassword);
         findViewById(R.id.btnLogin).setOnClickListener(v -> login());
         findViewById(R.id.tvRegister).setOnClickListener(v -> startActivity(new Intent(this, RegisterActivity.class)));
+        findViewById(R.id.tvForgotPassword).setOnClickListener(v -> startActivity(new Intent(this, ForgotPasswordActivity.class)));
 
         if (mAuth.getCurrentUser() != null) {
             startActivity(new Intent(this, MainActivity.class));
@@ -43,4 +45,5 @@ public class LoginActivity extends AppCompatActivity {
                 })
                 .addOnFailureListener(e -> Toast.makeText(this, "Sai email hoặc mật khẩu!", Toast.LENGTH_LONG).show());
     }
+
 }
