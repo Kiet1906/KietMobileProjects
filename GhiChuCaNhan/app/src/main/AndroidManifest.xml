@@ -5,12 +5,15 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:label="Ghi Chú Cá Nhân"
+        android:supportsRtl="true"
         android:theme="@style/Theme.GhiChuCaNhan">
 
         <activity
-            android:name=".LoginActivity"
-            android:exported="true">
+            android:name=".ui.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -18,15 +21,19 @@
         </activity>
 
         <activity
-            android:name=".RegisterActivity"
-            android:exported="true" />
+            android:name=".ui.RegisterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
 
         <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+            android:name=".ui.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
         <activity
-            android:name=".ForgotPasswordActivity"
-            android:exported="true" />
+            android:name=".ui.ForgotPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
 
     </application>
 
